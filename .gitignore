@@ -41,5 +41,5 @@
 # Nagy binárisok - ezek KIADÁSI MELLÉKLETKÉNT mennek, nem a git-be
 *.exe
 *.dmg
-*.zip
+# *.zip - a manifeszt melle nem kerul zip
 *.gguf
