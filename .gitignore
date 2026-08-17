@@ -1,0 +1,45 @@
+# ===========================================================================
+# TERJESZTÉSI TÁROLÓ - IDE FORRÁSKÓD SOHA NEM KERÜLHET
+#
+# Ez a tároló NYILVÁNOS. Kizárólag a kiadási jegyzet, a manifeszt és a
+# nyilvános ellenőrző kulcs van benne verziózva; a telepítők GitHub Release
+# mellékletként jönnek, nem git-tartalomként.
+#
+# A tiltás SZÉLES ÉS ELŐRE TILT: ami nincs kifejezetten megengedve, az nem
+# kerülhet be. Egy szűk lista előbb-utóbb kihagyna valamit.
+# ===========================================================================
+
+# Forráskód - SEMMILYEN formában
+*.py
+*.pyc
+*.spec
+*.iss
+*.sh
+*.bat
+*.ps1
+
+# Titkok
+*.key
+*.pem
+*.p12
+*.env
+.env*
+*credential*
+*secret*
+*token*
+
+# Felhasználói és üzleti adat
+*.sqlite3
+*.db
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.numbers
+*.log
+
+# Nagy binárisok - ezek KIADÁSI MELLÉKLETKÉNT mennek, nem a git-be
+*.exe
+*.dmg
+*.zip
+*.gguf
